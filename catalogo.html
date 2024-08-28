@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo - Eventos de Fiestas</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Catálogo de Servicios</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="catalogo.html">Catálogo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="catalogo">
+            <h2>Nuestros Productos</h2>
+            <div class="filtros">
+                <button onclick="filtrarProductos('todos')">Todos</button>
+                <button onclick="filtrarProductos('mesas')">Mesas</button>
+                <button onclick="filtrarProductos('sillas')">Sillas</button>
+                <button onclick="filtrarProductos('decoracion')">Decoración</button>
+                <button onclick="filtrarProductos('adornos')">Adornos</button>
+            </div>
+            <div class="productos">
+                <div class="producto mesas">
+                    <img src="mesa.jpg" alt="Mesa 1">
+                    <h3>Mesa 1</h3>
+                    <p>$50</p>
+                </div>
+                <div class="producto mesas">
+                    <img src="mesa2.jpg" alt="Mesa 2">
+                    <h3>Mesa 2</h3>
+                    <p>$75</p>
+                </div>
+                <div class="producto sillas">
+                    <img src="Sila.jpg" alt="Silla 1">
+                    <h3>Silla 1</h3>
+                    <p>$100</p>
+                </div>
+                <div class="producto sillas">
+                    <img src="sila2.jpg" alt="Silla 2">
+                    <h3>Silla 2</h3>
+                    <p>$120</p>
+                </div>
+                <div class="producto decoracion">
+                    <img src="decoracion.jpg" alt="Decoración 1">
+                    <h3>Decoración 1</h3>
+                    <p>$200</p>
+                </div>
+                <div class="producto adornos">
+                    <img src="adornos.jpg" alt="Adorno 1">
+                    <h3>Adorno 1</h3>
+                    <p>$250</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
